@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Proyecto practica</title>
+</head>
+
+<body>
+    <div class="layaut">
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            <h1>Mis Pelis</h1>
+
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Peliculas</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <section class="content" id="content">
+            <article class="peli-item">
+                <h3 class="title">Desarrollo Web</h3>
+                <p class="description">www.danielrivasweb.com</p>
+                <button class="edit">Editar</button>
+                <button class="delete">Eliminar</button>
+            </article>
+
+        </section>
+        
+
+        <aside class="lateral">
+            <div class="shearch">
+                <h3 class="title">Buscador</h3>
+                <form action="">
+                    <input type="text" id="search_field">
+                    <button id="search">Buscar</button>
+                </form>
+            </div>
+            <div class="add">
+                <h3 class="title">Añadir pelicula</h3>
+                <input type="text" placeholder="Titulo" id="title">
+                <textarea name="" id="description" rows="5" placeholder="Descripcion"></textarea>
+                <input type="submit" name="" value="Guardar" id="save">
+            </div>
+        </aside>
+        <footer class="footer">
+            @copy; Máster en JS y TS
+        </footer>
+    </div>
+
+    <script src="/JS/main.js" type="module"></script>
+</body>
+
+</html>
